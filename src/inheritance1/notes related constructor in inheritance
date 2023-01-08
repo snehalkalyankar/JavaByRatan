@@ -1,0 +1,13 @@
+
+Note 1 : Inside constructor you must be super() must be first statement
+Note 2 : You can not write this() and super() in same constructor because
+		 both should be the first statement
+Note 3: If you have child constructor and inside that you call 
+		super() and in your parent class there is no default constructor then what happen?
+		ANS--> your code will be compile fine and execute fine because 
+				by default if there is no constructor then zero argument constructor will call by JVM.
+Note 4: If you can not write super() keyword inside the constructor then by default compiler call super()
+		and this super() always call default constructor of parent class
+Note 5 :If you have Child class object but there is no constructor you write then by default
+		compiler call Zero argument constructor that contains the super() and that 
+		super() call parent class object

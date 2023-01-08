@@ -15,7 +15,8 @@ public class ChildClass extends Parent1{
 	}
 	
 	public static void main(String[] args) {
-		ChildClass c = new ChildClass();
+//		ChildClass c = new ChildClass();
+		Parent1 p = new Parent1();
 		
 	
 
