@@ -12,11 +12,11 @@ public class ChildClass extends Example1{
 		System.out.println("Child class constructor");
 	}
 //	ChildClass(int age){
-//		System.out.println("Child class parametrize constructor" +age);
+//		System.out.println("Child class parameterize constructor" +age);
 //	}
 	public static void main(String[] args) {
 	ChildClass c = new ChildClass();
-//	ChildClass c1 =  new ChildClass(10);
+	ChildClass c1 =  new ChildClass();
 
 	}
 
